@@ -25,7 +25,7 @@
 
 :toc:
 
-= lox10
+== lox10
 
 コンパイラ、第9,10回の講義用Assignmentです。
 
@@ -66,7 +66,7 @@ primary     ::= ...  /* 一次式の規則 */
 [source]
 .lox_expr.bnf（最終的なLoxの式の文法）
 ----
-include::{sourcesdir}/lox_expr.bnf[]
+include::{sourcesdir}/lox_expr.bnf
 ----
 
 . 作成できたら、このリポジトリをコミットしなさい。
@@ -173,7 +173,8 @@ java com.craftinginterpreters.lox.Lox <プログラム>
 
 [source,console]
 ----
-ここに、Loxを実行したときのコマンドライン、その動作結果をテキストで貼り付ける。
+C:\Users\haru0\craftinginterpreters\java\lox01-HARUKIAI\codes>java com.craftinginterpreters.lox.Lox com/craftinginterpreters/lox/fib.lox
+[line 3 ] Error  at 'fun': Expect expression.
 ----
 
 作成できたら、一度「lox01」をコミットしなさい。
